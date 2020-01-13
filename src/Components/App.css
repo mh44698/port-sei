@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+ .nav-links {
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+	width: 960px;
+}
+
+nav, section {
+  float: left;
+}
+
+nav {
+  width: 200px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+section {
+  width: 750px;
+}
+
+
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #53616a;
+  color: #FFF;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+}
+
+header,
+nav,
+section {
+  border: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+header {
+  padding: 20px 0;
+  margin-left: 200px
+  ;
+}
+
+nav, section {
+  padding: 20px 0;
+}
+
+.resume-style{
+  text-align: left;
+}
+
+.python-code {
+  text-align: left;
+}
+
+pre{
+  background-color: tan;
+  color: black;
+}
+
+img{
+  max-width: 200px;
+  max-height: 95px;
+}
+
+a:visited {
+  color: rgb(72, 248, 78);
+}
+
+a {
+  color: rgb(72, 248, 78);
+}
