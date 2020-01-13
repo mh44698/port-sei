@@ -31,9 +31,9 @@ function Nav() {
        </ul>
        <div className="imgs-for-reference">
            <hr></hr>
+       <img src={"/react.png"} alt="React" />
        <img src={"/HTML5.png"} alt="HTML5" />
        <img src={"/css.png"} alt="CSS" />
-       <img src={"/react.png"} alt="React" />
        <img src={"/VanillaJS.jpeg"} alt="Vanilla JavaScript" />
        <img src={"/Node.png"} alt="Node.js" />
        <img src={"/Python.jpeg"} alt="Python" />
